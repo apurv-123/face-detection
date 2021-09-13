@@ -1,4 +1,4 @@
-import numpy as np
+#import numpy as np
 import cv2
 
 face_cascade = cv2.CascadeClassifier('D:/face-detection/dataFace.xml')
@@ -45,7 +45,7 @@ while(ret):
 					(0,0,255),2)
 				else:
 					print("Blink detected")
-					cv2.waitKey(3000)
+					cv2.waitKey(1000)
 					first_read=True
 			
 	else:
